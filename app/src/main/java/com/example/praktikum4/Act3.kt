@@ -122,8 +122,8 @@ fun CardContainer(modifier : Modifier = Modifier){
             Spacer(modifier = Modifier.width(10.dp))
             Column {
                 Text(
-                    text = stringResource(R.string.nama),
-                    fontSize = 15.sp,
+                    text = stringResource(R.string.nama2),
+                    fontSize = 16.sp,
                     color = Color.White,
                     fontFamily = FontFamily.Cursive,
                     modifier = Modifier.padding(top = 15.dp, end = 20.dp)
@@ -131,13 +131,13 @@ fun CardContainer(modifier : Modifier = Modifier){
                 Text(
                     text = stringResource(R.string.nomor2),
                     fontSize = 12.sp,
-                    color = Color.Yellow,
+                    color = colorResource(R.color.warna_nomor),
                     modifier = Modifier.padding(top = 1.dp)
                 )
                 Text(
                     text = stringResource(R.string.alamat2),
                     fontSize = 12.sp,
-                    color = Color.Yellow,
+                    color = colorResource(R.color.warna_alamat),
                     modifier = Modifier.padding(top = 1.dp)
                 )
 
@@ -172,7 +172,7 @@ fun CardContainer(modifier : Modifier = Modifier){
             Spacer(modifier = Modifier.width(10.dp))
             Column {
                 Text(
-                    text = stringResource(R.string.nama),
+                    text = stringResource(R.string.nama3),
                     fontSize = 15.sp,
                     color = Color.White,
                     fontFamily = FontFamily.Cursive,
@@ -180,14 +180,14 @@ fun CardContainer(modifier : Modifier = Modifier){
                 )
                 Text(
                     text = stringResource(R.string.nomor3),
-                    fontSize = 12.sp,
-                    color = Color.Yellow,
+                    fontSize = 13.sp,
+                    color = colorResource(R.color.warna_nomor),
                     modifier = Modifier.padding(top = 1.dp)
                 )
                 Text(
                     text = stringResource(R.string.alamat3),
                     fontSize = 12.sp,
-                    color = Color.Yellow,
+                    color = colorResource(R.color.warna_alamat),
                     modifier = Modifier.padding(top = 1.dp)
                 )
             }
@@ -223,7 +223,7 @@ fun CardContainer(modifier : Modifier = Modifier){
             Spacer(modifier = Modifier.width(10.dp))
             Column {
                 Text(
-                    text = stringResource(R.string.nama),
+                    text = stringResource(R.string.nama4),
                     fontSize = 15.sp,
                     color = Color.White,
                     fontFamily = FontFamily.Cursive,
@@ -232,13 +232,13 @@ fun CardContainer(modifier : Modifier = Modifier){
                 Text(
                     text = stringResource(R.string.nomor4),
                     fontSize = 12.sp,
-                    color = Color.Yellow,
+                    color = colorResource(R.color.warna_nomor),
                     modifier = Modifier.padding(top = 1.dp)
                 )
                 Text(
                     text = stringResource(R.string.alamat4),
                     fontSize = 12.sp,
-                    color = Color.Yellow,
+                    color = colorResource(R.color.warna_alamat),
                     modifier = Modifier.padding(top = 1.dp)
                 )
             }
