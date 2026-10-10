@@ -3,5 +3,6 @@
     <string name="prodi"> Teknologi Informasi</string>
     <string name="univ">Universitas Mahasiswa Yogyakarta</string>
     <string name="nama">Rizki Fadil Budiastanto</string>
-
+    <string name="alamat">Cikarang Bekasi</string>
+    <string name="copy">Copyright, 2026</string>
 </resources>
