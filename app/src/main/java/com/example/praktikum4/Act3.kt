@@ -229,10 +229,16 @@ fun CardContainer(modifier : Modifier = Modifier){
                     modifier = Modifier.padding(top = 15.dp, end = 20.dp)
                 )
                 Text(
-                    text = stringResource(R.string.alamat),
+                    text = stringResource(R.string.nomor4),
                     fontSize = 12.sp,
                     color = Color.Yellow,
-                    modifier = Modifier.padding(top = 10.dp)
+                    modifier = Modifier.padding(top = 1.dp)
+                )
+                Text(
+                    text = stringResource(R.string.alamat4),
+                    fontSize = 12.sp,
+                    color = Color.Yellow,
+                    modifier = Modifier.padding(top = 1.dp)
                 )
             }
             Image(
