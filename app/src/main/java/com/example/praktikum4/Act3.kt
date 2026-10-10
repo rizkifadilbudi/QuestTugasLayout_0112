@@ -58,5 +58,178 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
 
 @Composable
 fun CardContainer(modifier : Modifier = Modifier){
+    Card(
+        modifier = Modifier
+            .fillMaxWidth(fraction = 1f)
+            .padding(all = 12.dp),
+        colors = CardDefaults.cardColors(containerColor = Color.DarkGray)
 
+    ) {
+        Row {
+            val gambar = painterResource(R.drawable.logoumy)
+            Image(
+                painter = gambar,
+                contentDescription = null,
+                modifier = Modifier
+                    .size(90.dp)
+                    .padding(all = 5.dp)
+            )
+            Spacer(modifier = Modifier.width(10.dp))
+            Column {
+                Text(
+                    text = stringResource(R.string.nama),
+                    fontSize = 15.sp,
+                    color = Color.White,
+                    fontFamily = FontFamily.Cursive,
+                    modifier = Modifier.padding(top = 15.dp, end = 20.dp)
+                )
+                Text(
+                    text = stringResource(R.string.alamat),
+                    fontSize = 12.sp,
+                    color = Color.Yellow,
+                    modifier = Modifier.padding(top = 10.dp)
+                )
+            }
+            Image(
+                painter = gambar,
+                contentDescription = null,
+                modifier = Modifier
+                    .size(90.dp)
+                    .padding(all
+
+                    = 5.dp)
+            )
+        }
+    }
+    Card(
+        modifier = Modifier
+            .fillMaxWidth(fraction = 1f)
+            .padding(all = 12.dp),
+        colors = CardDefaults.cardColors(containerColor = Color.DarkGray)
+
+    ) {
+        Row {
+            val gambar = painterResource(R.drawable.logoumy)
+            Image(
+                painter = gambar,
+                contentDescription = null,
+                modifier = Modifier
+                    .size(90.dp)
+                    .padding(all = 5.dp)
+            )
+            Spacer(modifier = Modifier.width(10.dp))
+            Column {
+                Text(
+                    text = stringResource(R.string.nama),
+                    fontSize = 15.sp,
+                    color = Color.White,
+                    fontFamily = FontFamily.Cursive,
+                    modifier = Modifier.padding(top = 15.dp, end = 20.dp)
+                )
+                Text(
+                    text = stringResource(R.string.alamat),
+                    fontSize = 12.sp,
+                    color = Color.Yellow,
+                    modifier = Modifier.padding(top = 10.dp)
+                )
+            }
+            Image(
+                painter = gambar,
+                contentDescription = null,
+                modifier = Modifier
+                    .size(90.dp)
+                    .padding(all
+
+                    = 5.dp)
+            )
+        }
+    }
+    Card(
+        modifier = Modifier
+            .fillMaxWidth(fraction = 1f)
+            .padding(all = 12.dp),
+        colors = CardDefaults.cardColors(containerColor = Color.DarkGray)
+
+    ) {
+        Row {
+            val gambar = painterResource(R.drawable.logoumy)
+            Image(
+                painter = gambar,
+                contentDescription = null,
+                modifier = Modifier
+                    .size(90.dp)
+                    .padding(all = 5.dp)
+            )
+            Spacer(modifier = Modifier.width(10.dp))
+            Column {
+                Text(
+                    text = stringResource(R.string.nama),
+                    fontSize = 15.sp,
+                    color = Color.White,
+                    fontFamily = FontFamily.Cursive,
+                    modifier = Modifier.padding(top = 15.dp, end = 20.dp)
+                )
+                Text(
+                    text = stringResource(R.string.alamat),
+                    fontSize = 12.sp,
+                    color = Color.Yellow,
+                    modifier = Modifier.padding(top = 10.dp)
+                )
+            }
+            Image(
+                painter = gambar,
+                contentDescription = null,
+                modifier = Modifier
+                    .size(90.dp)
+                    .padding(
+                        all
+
+                        = 5.dp
+                    )
+            )
+        }
+    }
+    Card(
+        modifier = Modifier
+            .fillMaxWidth(fraction = 1f)
+            .padding(all = 12.dp),
+        colors = CardDefaults.cardColors(containerColor = Color.DarkGray)
+
+    ) {
+        Row {
+            val gambar = painterResource(R.drawable.logoumy)
+            Image(
+                painter = gambar,
+                contentDescription = null,
+                modifier = Modifier
+                    .size(90.dp)
+                    .padding(all = 5.dp)
+            )
+            Spacer(modifier = Modifier.width(10.dp))
+            Column {
+                Text(
+                    text = stringResource(R.string.nama),
+                    fontSize = 15.sp,
+                    color = Color.White,
+                    fontFamily = FontFamily.Cursive,
+                    modifier = Modifier.padding(top = 15.dp, end = 20.dp)
+                )
+                Text(
+                    text = stringResource(R.string.alamat),
+                    fontSize = 12.sp,
+                    color = Color.Yellow,
+                    modifier = Modifier.padding(top = 10.dp)
+                )
+            }
+            Image(
+                painter = gambar,
+                contentDescription = null,
+                modifier = Modifier
+                    .size(90.dp)
+                    .padding(all
+
+                    = 5.dp)
+            )
+        }
+    }
 }
