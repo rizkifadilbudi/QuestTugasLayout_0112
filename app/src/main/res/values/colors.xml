@@ -7,4 +7,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="warna_alamat">#FFFF00</color>
+    <color name="warna_nomor">#00FFFF</color>
+    <color name="card1">#616161</color>
+    <color name="card2">#7E4BD8</color>
+    <color name="card3">#0000FF</color>
+    <color name="card4">#008000</color>
 </resources>
