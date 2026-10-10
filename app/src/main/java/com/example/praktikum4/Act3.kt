@@ -43,7 +43,6 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
         )
         Spacer(modifier = Modifier.height(25.dp))
         //buat fungsi cardnya
-
         Box(
             modifier = Modifier.fillMaxSize()
         ) {
@@ -55,4 +54,9 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
             )
         }
     }
+}
+
+@Composable
+fun CardContainer(modifier : Modifier = Modifier){
+
 }
